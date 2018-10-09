@@ -1,0 +1,156 @@
+body, 
+html {
+  background-color: #F2E2CE;
+  color: #1D2120;
+  line-height: 1.5em;
+  color: black;
+  max-width: 1400px;
+  font-family: Courier, "Times New Roman", Arial;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+  background-color: #F2E2CE;
+  color: #1D2120;
+  border-bottom: 1px solid #ff4f00;
+  opacity: 0.9;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.navbar-collapse .navbar-right li a {
+  color: #ff4f00;
+}
+.navbar-collapse .navbar-right li a:hover {
+  color: black;
+}
+
+.navbar-collapse {
+  text-align: center;
+} 
+/* end of navbar */
+
+h1 {
+  margin-top: 140px;
+  font-size: 2.6875em;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+h2 {
+  font-size: 2.1875em;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+p {
+  text-align: justify;
+}
+.bridge {
+  color: #ff4f00;
+}
+
+
+/* --- SLIDESHOW --- */
+#slideshow {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+/* --- HISTORY --- */
+#history {
+  margin-top: 70px;
+}
+#history h2 {
+  margin-bottom: 50px;
+}
+
+/* --- VISIT --- */
+#visit {
+  margin-top: 70px;
+}
+#visit h2 {
+  margin-bottom: 50px;
+}
+
+/* --- CONTACT --- */
+#contact {
+  margin-top: 70px;
+}
+#contact h2 {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+  #history h2 {
+    margin-top: 0;
+  }
+  #history p {
+    padding: 15px 0;
+  }
+  #visit h2 {
+    margin-top: 0;
+  }
+  #visit p {
+    padding: 20px 0;
+  } 
+}
+
+
+/* --- GOOGLE MAP --- */
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* CONTACT */
+.contact-list {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.contact-list>li {
+  list-style: none; 
+  line-height: 1.7;
+}
+
+/* --- FOOTER --- */
+#footer {
+  border-top: 1px solid #ff4f00;
+  line-height: normal;
+  padding-bottom: 5px;
+}
+
+#footer p {
+  font-size: 10px;
+}
+#footer :first-child {
+  padding-top: 5px;
+}
+.heart {
+  color: #F20000;
+}
+#footer a {
+  color: black;
+}
+
+#footer a:hover, a:visited {
+  color: #ff4f00;
+  text-decoration: none;
+}
